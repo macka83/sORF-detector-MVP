@@ -7,7 +7,7 @@ from Bio.Seq import Seq
 # Konfiguracja Entrez
 Entrez.email = "maciek.kala@gmail.com"
 # Upewnij się, że Twój klucz API jest poprawny
-Entrez.api_key = "c533470558380018969970558a6094241906"
+Entrez.api_key = api_key
 
 def download_genome(accession_id, filename):
     """Pobiera genom z NCBI, jeśli nie istnieje lokalnie."""
