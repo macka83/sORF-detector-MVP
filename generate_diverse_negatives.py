@@ -66,9 +66,10 @@ def get_physiochem_properties(aa_seq: str) -> dict:
         )
         if len(clean) > 0:
             feats["aliphatic_index"] = (A + 2.9 * V + 3.9 * (I + L)) / len(clean) * 100
-    except Exception as e:
-        print(f"ProtParam.ProteinAnalysis error: {e}")
+    except Exception:
+        # W przypadku błędu (np. bardzo krótka sekwencja lub dziwne znaki) zwracamy zera
         pass
+
     return feats
 
 
