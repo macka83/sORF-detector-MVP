@@ -47,3 +47,10 @@ The following features are extracted for the classification task:
 * **Algorithm:** `RandomForestClassifier`
 
 ---
+
+## Files Description
+* **fetch_upstream_from_ncbi_for_pos_and_neg.ipynb** add upstream sequence to positive sORF  
+* **get_ecoli_source.ipynb** get multiple E.coli sequences from NCBI
+* **generate_sORF_negative_sequences.py** read multiple E.coli sequences and generate negative sORF dataset 
+* **Feature_extraction_and_training.ipynb** apply Numeric Feature Extraction and Training
+* **Feature_extraction_and_training.ipynb**
