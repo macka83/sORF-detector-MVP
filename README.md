@@ -1,5 +1,5 @@
 # sORF-detector-MVP
-**E.coli sORF simplified classifier**
+**E.coli sORF simplified binary classifier**
 
 ---
 
