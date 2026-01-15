@@ -10,8 +10,8 @@ from tqdm import tqdm
 
 # --- KONFIGURACJA ---
 INPUT_DIR = "data/ecoli_genomes"
-OUTPUT_FILE = "negatives_diverse_13k.csv"
-TARGET_TOTAL = 13000
+OUTPUT_FILE = "negatives_diverse_100k.csv"
+TARGET_TOTAL = 100000
 
 # Proporcje zbioru
 RATIOS = {
